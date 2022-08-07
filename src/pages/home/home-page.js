@@ -38,6 +38,8 @@ import {useSnackbar} from "notistack";
 import {useFormik} from "formik";
 import {MailOutline, PersonOutline} from "@mui/icons-material";
 import {LoadingButton} from "@mui/lab";
+import Defense from "../../components/shared/defense";
+import Testimonial from "../../components/shared/testimonial";
 
 const HomePage = () => {
 
@@ -204,7 +206,7 @@ const HomePage = () => {
                                             Tenacious Representation
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            Carmen Roe Law Firm in Downtown Houston is a female-owned firm providing
+                                            Pieter Jacobs Law Firm in Downtown Houston is a female-owned firm providing
                                             aggressive representation in all criminal defense matters. Our goal in every
                                             case is to exceed expectations while meeting the goals set by the client,
                                             for
@@ -217,7 +219,7 @@ const HomePage = () => {
                                             Our Guarantee
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            PWe promise our clients that we will never stop fighting. Carmen Roe Law
+                                            PWe promise our clients that we will never stop fighting. Pieter Jacobs Law
                                             Firm in
                                             Downtown Houston is committed to doing whatever it takes to get the best
                                             result
@@ -231,7 +233,7 @@ const HomePage = () => {
                                             Our Number One Priority
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            At the Carmen Roe Law Firm in Downtown Houston we always work hard to keep
+                                            At the Pieter Jacobs Law Firm in Downtown Houston we always work hard to keep
                                             the
                                             focus on you and your family. Our criminal defense firm works closely with
                                             clients to keep them well informed in every case. We give honest and direct
@@ -445,6 +447,47 @@ const HomePage = () => {
                 </Container>
             </Box>
 
+            <Box sx={{py: 5, backgroundColor: 'background.paper'}}>
+                <Container>
+                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                        State & Federal Criminal Defense
+                    </Typography>
+                    <Grid container={true} spacing={4}>
+                        {PIETER_JACOBS_LAW_DATA.DEFENSE.map((defense, index) => {
+                            return (
+                                <Grid xs={12} item={true} key={index}>
+                                    <Defense defense={defense}/>
+                                </Grid>
+                            )
+                        })}
+                    </Grid>
+                </Container>
+            </Box>
+
+            <Box sx={{py: 5, backgroundColor: 'background.default'}}>
+                <Container>
+                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                        Testimonials
+                    </Typography>
+                    <Carousel
+                        infinite={true}
+                        keyBoardControl={true}
+                        pauseOnHover={true}
+                        showDots={false}
+                        arrows={true}
+                        autoPlay={true}
+                        autoPlaySpeed={3000}
+                        responsive={UTILS.testimonialResponsive}>
+                        {PIETER_JACOBS_LAW_DATA.REVIEWS.map((review, index) => {
+                            return (
+                                <Box key={index}>
+                                    <Testimonial testimonial={review}/>
+                                </Box>
+                            )
+                        })}
+                    </Carousel>
+                </Container>
+            </Box>
         </Layout>
     )
 }

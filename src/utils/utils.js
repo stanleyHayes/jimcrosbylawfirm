@@ -24,8 +24,27 @@ const responsive = {
     }
 };
 
+const testimonialResponsive = {
+    xl: {
+        breakpoint: {min: 1200, max: 4000},
+        items: 1
+    },
+    lg: {
+        breakpoint: {max: 1200, min: 900},
+        items: 1
+    },
+    md: {
+        breakpoint: {max: 900, min: 600},
+        items: 1
+    },
+    xs: {
+        breakpoint: {max: 600, min: 0},
+        items: 1
+    }
+};
 
 export const UTILS = {
     getInitials,
-    responsive
+    responsive,
+    testimonialResponsive
 };
