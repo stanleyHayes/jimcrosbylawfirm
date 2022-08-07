@@ -141,10 +141,10 @@ const SidebarContent = () => {
                         )}
                     />
                     <SidebarLink
-                        active={activePath === '/media'}
-                        label="Media"
-                        path="/media"
-                        icon={activePath === '/media' ? (
+                        active={activePath === '/testimonials'}
+                        label="Testimonials"
+                        path="/testimonials"
+                        icon={activePath === '/testimonials' ? (
                             <Newspaper
                                 sx={{
                                     cursor: 'pointer',
