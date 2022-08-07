@@ -200,7 +200,7 @@ const HomePage = () => {
                             <Box sx={{py: 2}}>
                                 <Stack direction="column" spacing={2}>
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.secondary', fontWeight: 500, mb: 2}}>
+                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Tenacious Representation
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
@@ -213,7 +213,7 @@ const HomePage = () => {
                                     </Box>
 
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.secondary', fontWeight: 500, mb: 2}}>
+                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Our Guarantee
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
@@ -227,7 +227,7 @@ const HomePage = () => {
                                     </Box>
 
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.secondary', fontWeight: 500, mb: 2}}>
+                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Our Number One Priority
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>

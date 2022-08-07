@@ -35,8 +35,8 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="tel:+231870048319"
-                            value="+231870048319"
+                            link="tel:+12029844170"
+                            value="+1 (202) 984-4170"
                         />
 
                         <ContactLink

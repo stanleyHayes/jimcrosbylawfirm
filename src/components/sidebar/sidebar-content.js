@@ -141,37 +141,6 @@ const SidebarContent = () => {
                         )}
                     />
                     <SidebarLink
-                        active={activePath === '/testimonials'}
-                        label="Testimonials"
-                        path="/testimonials"
-                        icon={activePath === '/testimonials' ? (
-                            <Newspaper
-                                sx={{
-                                    cursor: 'pointer',
-                                    color: 'secondary.main',
-                                    borderTopRightRadius: 32,
-                                    borderBottomRightRadius: 0,
-                                    borderBottomLeftRadius: 32,
-                                    borderTopLeftRadius: 32,
-                                    padding: 1,
-                                    fontSize: 18,
-                                    backgroundColor: 'light.secondary'
-                                }}/>
-                        ) : (
-                            <NewspaperOutlined
-                                sx={{
-                                    cursor: 'pointer',
-                                    color: 'text.secondary',
-                                    borderTopRightRadius: 32,
-                                    borderBottomRightRadius: 0,
-                                    borderBottomLeftRadius: 32,
-                                    borderTopLeftRadius: 32,
-                                    padding: 1,
-                                    fontSize: 18
-                                }}/>
-                        )}
-                    />
-                    <SidebarLink
                         active={activePath === '/contact'}
                         label="Contact"
                         path="/contact"
