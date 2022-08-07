@@ -3,7 +3,7 @@ import {Box, CardMedia, Container, Stack, Typography} from "@mui/material";
 import Banner from "../../components/shared/banner";
 import banner from "./../../assets/images/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.jpg";
 import React from "react";
-import criminal from "../../assets/images/scott-graham-OQMZwNd3ThU-unsplash.jpg";
+import profile from "../../assets/images/profile.jpeg";
 
 const AboutPage = () => {
 
@@ -56,12 +56,13 @@ const AboutPage = () => {
             <Box sx={{minHeight: '50vh', backgroundColor: 'background.paper'}}>
                 <Box sx={{alignItems: 'center', display: 'flex', flexDirection: {xs: 'column', lg: 'row'}}}>
                     <Box sx={{flex: 1, py: 4}}>
-                        <Container>
+                        <Container maxWidth="sm">
                             <Box sx={{py: 2}}>
                                 <Stack direction="column" spacing={2}>
                                     <Box>
-                                        <Typography variant="h4"
-                                                    sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
+                                        <Typography
+                                            variant="h4"
+                                            sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
                                             EDUCATION
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
@@ -74,8 +75,9 @@ const AboutPage = () => {
                                     </Box>
 
                                     <Box>
-                                        <Typography variant="h4"
-                                                    sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
+                                        <Typography
+                                            variant="h4"
+                                            sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
                                             BAR ADMISSION
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
@@ -108,7 +110,7 @@ const AboutPage = () => {
                     <Box sx={{flex: 1, minHeight: '100%'}}>
                         <CardMedia
                             component="img"
-                            src={criminal}
+                            src={profile}
                             sx={{
                                 height: '100%',
                                 width: '100%',

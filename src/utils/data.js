@@ -12,7 +12,6 @@ import topAttorneyDefense from "./../assets/images/top-atourney-defense.webp";
 import bank from "./../assets/images/bank.png";
 import business from "./../assets/images/cooperation.png";
 import accident from "./../assets/images/car-crash.png";
-import health from "./../assets/images/cardiogram.png";
 import criminal from "./../assets/images/mugshot.png";
 import family from "./../assets/images/family-silhouette.png";
 import capital from "./../assets/images/capital.png";
@@ -40,32 +39,27 @@ const PRACTICE_AREAS = [
     {
         image: accident,
         title: 'Accident & Injury Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
-    },
-    {
-        image: health,
-        title: 'Health Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
+        description: 'Unfortunately, physical injuries are a sad part of life. In most cases, those injured have to simply lick their wounds and move on with their lives. However, in certain cases, injuries can be caused by the negligence of others. In these cases, the law provides those injured with an outlet. That outlet comes in the form of a personal injury lawsuit against the negligent party.'
     },
     {
         image: family,
         title: 'Family Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
+        description: 'Family cases are always emotionally charged, and an attorney must be sensitive to what a client is going through, and provide exceptional representation. The circumstances typically surrounding any family case are extraordinary, so the attorneys involved have to rise to the occasion.'
     },
     {
         image: criminal,
         title: 'Criminal Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
+        description: 'Whether one is being investigated, prosecuted, sentenced or is seeking to appeal, the consequences that lie in criminal practice are unparalleled in the law. As soon as an arrest takes place (even if a Desk Appearance Ticket is issued), one can rest assured that his or her life will never be the same. Such an event will potentially impact one’s ability to get a job, apply to college and even stay in the United States.'
     },
     {
         image: capital,
-        title: 'Capital Markets',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
+        title: 'Entertainment Law',
+        description: 'Entertainment law is a broad phrase that includes many different areas of law. From employment matters to protecting one’s rights in a defamation lawsuit, our firm offers a wide range of services in the protection of entertainers and entertainment companies, from all walks of life.'
     },
     {
         image: agreement,
-        title: 'House & Estate Litigation',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
+        title: 'Civil Litigation',
+        description: 'Most hard-working people have a lot to lose if a lawsuit is filed against them. If a judgment is entered, those people jeopardize the financial viability of their assets, and risk wages being garnished, so detailed attention and immediate action is required. However, this action must be taken with care.'
     },
 ]
 
