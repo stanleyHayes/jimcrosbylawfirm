@@ -5,6 +5,10 @@ import Overlay from "../../components/shared/overlay";
 import {Link} from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import React from "react";
+import Carousel from "react-multi-carousel";
+import {UTILS} from "../../utils/utils";
+import {PIETER_JACOBS_LAW_DATA} from "../../utils/data";
+import Leadership from "../../components/shared/leadership";
 
 const HomePage = () => {
 
@@ -84,11 +88,31 @@ const HomePage = () => {
                     image={banner}
                     backgroundColor="#000000"/>
             </Box>
-            <Container>
-                <Typography variant="h3" align="center">
-                    Page Under Construction
-                </Typography>
-            </Container>
+            <Box sx={{py: 5}}>
+                <Container>
+                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                        Leadership
+                    </Typography>
+                    <Carousel
+                        infinite={true}
+                        keyBoardControl={true}
+                        pauseOnHover={true}
+                        showDots={false}
+                        arrows={true}
+                        autoPlay={true}
+                        autoPlaySpeed={3000}
+                        centerMode={true}
+                        responsive={UTILS.responsive}>
+                        {PIETER_JACOBS_LAW_DATA.LEADERSHIP.map((leadership, index) => {
+                            return (
+                                <Box key={index} sx={{mx: 1}}>
+                                    <Leadership leadership={leadership}/>
+                                </Box>
+                            )
+                        })}
+                    </Carousel>
+                </Container>
+            </Box>
         </Layout>
     )
 }
