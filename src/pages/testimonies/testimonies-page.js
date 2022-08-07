@@ -1,7 +1,7 @@
 import Layout from "../../components/layout/layout";
 import {Box, Container, Typography} from "@mui/material";
 import Banner from "../../components/shared/banner";
-import banner from "./../../assets/images/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.jpg";
+import banner from "./../../assets/images/nasser-eledroos-20fmGtxKs_I-unsplash.jpg";
 
 const TestimoniesPage = () => {
     return (
