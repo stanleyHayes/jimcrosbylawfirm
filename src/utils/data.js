@@ -27,16 +27,6 @@ import stateTrial from "./../assets/images/state-trial.webp";
 
 const PRACTICE_AREAS = [
     {
-        image: bank,
-        title: 'Bank & Financial Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
-    },
-    {
-        image: business,
-        title: 'Business Law',
-        description: 'Antitrust and competition laws around the world are rapidly evolving and companies face new risks and challenges in keeping up with the complex and changing rules'
-    },
-    {
         image: accident,
         title: 'Accident & Injury Law',
         description: 'Unfortunately, physical injuries are a sad part of life. In most cases, those injured have to simply lick their wounds and move on with their lives. However, in certain cases, injuries can be caused by the negligence of others. In these cases, the law provides those injured with an outlet. That outlet comes in the form of a personal injury lawsuit against the negligent party.'
