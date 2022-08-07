@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-multi-carousel/lib/styles.css';
+import {SnackbarProvider} from "notistack";
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./redux/app/store";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+          <BrowserRouter>
+              <SnackbarProvider
+                  autoHideDuration={2000}
+                  anchorOrigin={{vertical: 'top', horizontal: 'left'}}
+                  maxSnack={5}>
+                  <App/>
+              </SnackbarProvider>
+          </BrowserRouter>
+      </Provider>
   </React.StrictMode>
 );
 
