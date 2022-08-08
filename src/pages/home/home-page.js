@@ -180,10 +180,10 @@ const HomePage = () => {
                     <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
                         Practice Areas
                     </Typography>
-                    <Grid container={true}>
+                    <Grid container={true} spacing={2}>
                         {PIETER_JACOBS_LAW_DATA.PRACTICE_AREAS.map((service, index) => {
                             return (
-                                <Grid xs={12} md={3} item={true} key={index}>
+                                <Grid xs={12} md={4} item={true} key={index}>
                                     <Service service={service}/>
                                 </Grid>
                             )

@@ -9,8 +9,6 @@ import texasBarCollege from "./../assets/images/texas-bar-college.webp";
 import texasCriminalDefenseLawyers from "./../assets/images/texas-criminal-defense-lawyers-association.webp";
 import topAttorneyDefense from "./../assets/images/top-atourney-defense.webp";
 
-import bank from "./../assets/images/bank.png";
-import business from "./../assets/images/cooperation.png";
 import accident from "./../assets/images/car-crash.png";
 import criminal from "./../assets/images/mugshot.png";
 import family from "./../assets/images/family-silhouette.png";
