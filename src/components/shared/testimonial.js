@@ -2,7 +2,7 @@ import {Box, Card, CardContent, Rating, Stack, Typography} from "@mui/material";
 
 const Testimonial = ({testimonial}) => {
     return (
-        <Card sx={{height: '100%', backgroundColor: 'background.default'}} elevation={0}>
+        <Card sx={{backgroundColor: 'background.default'}} elevation={0}>
             <CardContent sx={{flex: 1}}>
                 <Stack spacing={1}>
                     <Typography
