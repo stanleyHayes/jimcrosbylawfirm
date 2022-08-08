@@ -81,7 +81,7 @@ const AboutPage = () => {
                                             BAR ADMISSION
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            New York
+                                            London
                                         </Typography>
                                     </Box>
 
@@ -92,15 +92,15 @@ const AboutPage = () => {
                                             COURT ADMISSIONS
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            U.S. Court of Appeals, 2nd Circuit
+                                            U.K. Court of Appeals, 2nd Circuit
                                         </Typography>
 
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            U.S. District Court, Southern District of NY
+                                            U.K. District Court, Southern District of Cambridgeshire
                                         </Typography>
 
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            U.S. District Court, Eastern District of NY
+                                            U.K. District Court, Eastern District of Cambridgeshire
                                         </Typography>
                                     </Box>
                                 </Stack>
