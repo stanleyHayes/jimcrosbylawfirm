@@ -374,7 +374,7 @@ const HomePage = () => {
                                             viewport={{once: true}}
                                             component={motion.p}
                                             variant="body2" sx={{color: 'text.secondary'}}>
-                                            Jim Crosby Law Firm in Downtown Houston is a female-owned firm providing
+                                            Jim Crosby Law Firm in Downtown Houston is a male-owned firm providing
                                             aggressive representation in all criminal defense matters. Our goal in every
                                             case is to exceed expectations while meeting the goals set by the client,
                                             for
