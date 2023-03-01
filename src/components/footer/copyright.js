@@ -7,7 +7,7 @@ const Copyright = () => {
         <Box sx={{padding: 4, backgroundColor: 'background.default'}}>
             <Container>
                 <Typography variant="body2" align="center" sx={{color: 'text.secondary'}}>
-                    &copy;Copyright © 2015 Pieter Jacobs Law. All rights reserved.
+                    &copy;Copyright © 2015 Jim Crosby Law Firm. All rights reserved.
                 </Typography>
             </Container>
         </Box>
