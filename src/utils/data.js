@@ -87,7 +87,7 @@ const TEAM = [
 const REVIEWS = [
     {
         title: 'State Trial',
-        description: 'Attorney Mr Jacobs is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Jacobs in the future if I need to again. Thank you Mr Jacobs',
+        description: 'Attorney Mr Crosby is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
         date: 'May, 2021',
         rating: 4.6,
         image: agreement
@@ -101,7 +101,7 @@ const REVIEWS = [
     },
     {
         title: 'State Trial',
-        description: 'Attorney Mr Jacobs is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Jacobs in the future if I need to again. Thank you Mr Jacobs',
+        description: 'Attorney Mr Crosby is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
         date: 'May, 2021',
         rating: 4.8,
         image: agreement

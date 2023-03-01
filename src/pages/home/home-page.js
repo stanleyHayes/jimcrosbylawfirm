@@ -112,7 +112,18 @@ const HomePage = () => {
                                 <Grid container={true} spacing={4} alignItems="center" justifyContent="center">
                                     <Grid item={true} xs={12} md={6}>
                                         <Stack sx={{mb: 3}} direction="row" justifyContent="center">
-                                            <img
+                                            <motion.img
+                                                initial={{
+                                                    opacity: 0,
+                                                    y: '10vh'
+                                                }}
+                                                whileInView={{
+                                                    opacity: 1,
+                                                    y: 0,
+                                                    transition: {
+                                                        duration: 1
+                                                    }
+                                                }}
                                                 src={logo}
                                                 style={{
                                                     width: 150,
@@ -123,14 +134,53 @@ const HomePage = () => {
                                                 alt="Pieter Jacobs Logo"
                                             />
                                         </Stack>
-                                        <Typography align="center" variant="h3" sx={{color: 'white', mb: 3}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            component={motion.h3}
+                                            align="center" variant="h3" sx={{color: 'white', mb: 3}}>
                                             Jim Crosby Law
                                         </Typography>
-                                        <Typography align="center" variant="body1" sx={{color: 'white', mb: 3}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            component={motion.p}
+                                            align="center" variant="body1" sx={{color: 'white', mb: 3}}>
                                             We advocate for employee rights and help companies comply with workplace
                                             laws.
                                         </Typography>
-                                        <Grid container={true} spacing={2} alignItems="center" justifyContent="center">
+                                        <Grid
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            component={motion.div}
+                                            container={true} spacing={2} alignItems="center" justifyContent="center">
                                             <Grid item={true} xs={12} md={6}>
                                                 <Link to="/about" style={{textDecoration: 'none'}}>
                                                     <Button
