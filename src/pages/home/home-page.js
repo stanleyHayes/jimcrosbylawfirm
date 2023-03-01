@@ -365,7 +365,7 @@ const HomePage = () => {
                                             viewport={{once: true}}
                                             component={motion.p}
                                             variant="body2" sx={{color: 'text.secondary'}}>
-                                            PWe promise our clients that we will never stop fighting. Jim Crosby Law
+                                            We promise our clients that we will never stop fighting. Jim Crosby Law
                                             Firm in
                                             Downtown Houston is committed to doing whatever it takes to get the best
                                             result

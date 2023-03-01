@@ -94,7 +94,7 @@ const REVIEWS = [
     },
     {
         title: 'State Sentencing',
-        description: 'Pieter Jacobs recently represented me in a criminal matter in Harris County, Texas criminal court. The case was extremely complex. Pieter Jacobs literally saved my life. I am a former attorney, and I can easily attest that Pieter Jacobs is one of the smartest lawyers that I have ever met. She has extensive knowledge of criminal law and procedure. Pieter Jacobs spent countless hours working on my case. She developed a a case strategy and worked it to perfection. Pieter Jacobs was always very well prepared, and she outworked the opposing counsel. Pieter Jacobs was always very honest with me. Pieter Jacobs and his staff made me feel like family. I highly recommend Pieter Jacobs',
+        description: 'Jim Crosby recently represented me in a criminal matter in Harris County, Texas criminal court. The case was extremely complex. Jim Crosby literally saved my life. I am a former attorney, and I can easily attest that Jim Crosby is one of the smartest lawyers that I have ever met. She has extensive knowledge of criminal law and procedure. Jim Crosby spent countless hours working on my case. She developed a a case strategy and worked it to perfection. Jim Crosby was always very well prepared, and she outworked the opposing counsel. Jim Crosby was always very honest with me. Jim Crosby and his staff made me feel like family. I highly recommend Jim Crosby',
         date: 'April, 2021',
         rating: 5,
         image: agreement
@@ -108,7 +108,7 @@ const REVIEWS = [
     },
     {
         title: 'State Sentencing',
-        description: 'The most honest & reliable attorney in the state of Texas, I have hired many attorneys & been screwed by many attorneys before I met Mrs. Roe, she has always been there for me whether it was a case I had her handling or just advice that I needed from someone I can trust & not once has she EVER steered me wrong or ANYONE that I have ever referred her to.... If ur in a tight spot & need legal help Pieter Jacobs is the ONLY person I would ever recommend to anyone...',
+        description: 'The most honest & reliable attorney in the state of Texas, I have hired many attorneys & been screwed by many attorneys before I met Mrs. Roe, she has always been there for me whether it was a case I had her handling or just advice that I needed from someone I can trust & not once has she EVER steered me wrong or ANYONE that I have ever referred her to.... If ur in a tight spot & need legal help Jim Crosby is the ONLY person I would ever recommend to anyone...',
         date: 'March, 2020',
         rating: 5,
         image: agreement
@@ -136,7 +136,7 @@ const REVIEWS = [
     },
     {
         title: 'Post Conviction Relief',
-        description: 'I am forever grateful to Pieter Jacobs for her unwavering hard work on my case. I was charged with a felony in 2010, and made the mistake of hiring a terrible lawyer whose gross negligence on my case led to me pleading guilty. I met with Pieter Jacobs in 2016 and spoke to her about my case. She listened diligently and agreed that I was denied effective assistance of counsel, and that my plea of guilty was not knowingly and voluntarily entered because my lawyer did not properly advise me. Soon after our meeting, Pieter Jacobs drafted and filed a writ of habeas corpus. She worked tirelessly, going back and forth speaking with prosecutors, never taking no for an answer. I am so delighted to say that we got awarded the writ! Pieter Jacobs then quickly started filing the petition for expansion. As of today, my nightmare has ended, and the guilty conviction is forever off of my records. I cannot thank Pieter Jacobs enough. She will listen to you and fight for you. Her and her team will keep you in the loop every step of the way. Any questions or concerns you might have get quickly answered. You are never left in the dark.  Pieter Jacobs is devoted and loves what she does. If you hire Pieter Jacobs, then you can rest easy knowing you are getting the absolute best representation.',
+        description: 'I am forever grateful to Jim Crosby for her unwavering hard work on my case. I was charged with a felony in 2010, and made the mistake of hiring a terrible lawyer whose gross negligence on my case led to me pleading guilty. I met with Jim Crosby in 2016 and spoke to her about my case. She listened diligently and agreed that I was denied effective assistance of counsel, and that my plea of guilty was not knowingly and voluntarily entered because my lawyer did not properly advise me. Soon after our meeting, Jim Crosby drafted and filed a writ of habeas corpus. She worked tirelessly, going back and forth speaking with prosecutors, never taking no for an answer. I am so delighted to say that we got awarded the writ! Jim Crosby then quickly started filing the petition for expansion. As of today, my nightmare has ended, and the guilty conviction is forever off of my records. I cannot thank Jim Crosby enough. She will listen to you and fight for you. Her and her team will keep you in the loop every step of the way. Any questions or concerns you might have get quickly answered. You are never left in the dark.  Jim Crosby is devoted and loves what she does. If you hire Jim Crosby, then you can rest easy knowing you are getting the absolute best representation.',
         date: 'February, 2019',
         rating: 5,
         image: agreement
@@ -151,12 +151,12 @@ const DEFENSE = [
     },
     {
         title: 'State Appeals',
-        description: 'Pieter Jacobs Law Firm specializes in State appeals including motions for new trial, appeal of pretrial motions such as a motion to suppress as well as appealing trial and punishment determinations. A motion for new trial is an opportunity to both preserve rights on appeal and reverse jury and judge determinations. This process occurs before the direct appeal process begins. All appeals are regulated by strict timelines so contact us today to discuss your options. Pieter Jacobs Law Firm in Houston can help with your State appeals. ',
+        description: 'Jim Crosby Law Firm specializes in State appeals including motions for new trial, appeal of pretrial motions such as a motion to suppress as well as appealing trial and punishment determinations. A motion for new trial is an opportunity to both preserve rights on appeal and reverse jury and judge determinations. This process occurs before the direct appeal process begins. All appeals are regulated by strict timelines so contact us today to discuss your options. Jim Crosby Law Firm in Houston can help with your State appeals. ',
         image: stateAppeals
     },
     {
         title: 'Federal Appeals',
-        description: 'Pieter Jacobs Law Firm is also experienced in handling your federal appeal to challenge errors at trial or during sentencing. Many federal charges result in a plea of guilty so much of the focus on appeal will be on the sentencing phase. Any error in sentencing calculations under the Sentencing Guidelines is an important area to develop on appeal. Any appeal of a jury verdict will always focus on errors in the trial court. Some errors must be raised on appeal or they are waived. Appeals have strict timelines that must be followed. Contact us to discuss your case in detail to find out what rights you have on appeal. Pieter Jacobs Law Firm in Houston can help with your Federal appeal. ',
+        description: 'Jim Crosby Law Firm is also experienced in handling your federal appeal to challenge errors at trial or during sentencing. Many federal charges result in a plea of guilty so much of the focus on appeal will be on the sentencing phase. Any error in sentencing calculations under the Sentencing Guidelines is an important area to develop on appeal. Any appeal of a jury verdict will always focus on errors in the trial court. Some errors must be raised on appeal or they are waived. Appeals have strict timelines that must be followed. Contact us to discuss your case in detail to find out what rights you have on appeal. Jim Crosby Law Firm in Houston can help with your Federal appeal. ',
         image: federalAppeals
     },
     {
@@ -166,12 +166,12 @@ const DEFENSE = [
     },
     {
         title: 'Federal Trial',
-        description: 'Being accused of a crime by the United States of America can be a scary experience when the full power of the government is against you. Pieter Jacobs Law Firm in Houston is ready to stand between you and the federal government to defend against complex white collar crimes and other serious federal allegations to protect your rights when it matters the most. Contact us to discuss your concerns if you are contacted by a federal agent or charged in federal court.',
+        description: 'Being accused of a crime by the United States of America can be a scary experience when the full power of the government is against you. Jim Crosby Law Firm in Houston is ready to stand between you and the federal government to defend against complex white collar crimes and other serious federal allegations to protect your rights when it matters the most. Contact us to discuss your concerns if you are contacted by a federal agent or charged in federal court.',
         image: federalTrial
     },
     {
         title: 'State Trial',
-        description: 'Over 90% of all criminal defense matters are resolved without a trial. Pieter Jacobs Law Firm in Houston is committed to fighting for your interests before trial and at any jury trial.  We use our knowledge and preparation to take advantage of all pretrial avenues to avoid prolonging a case and to ensure the best outcome. We are also committed to going to trial with the same knowledge, preparation and fierce advocacy to get the best results for you. Contact us to get started investigating the prosecutor\'s allegations against you',
+        description: 'Over 90% of all criminal defense matters are resolved without a trial. Jim Crosby Law Firm in Houston is committed to fighting for your interests before trial and at any jury trial.  We use our knowledge and preparation to take advantage of all pretrial avenues to avoid prolonging a case and to ensure the best outcome. We are also committed to going to trial with the same knowledge, preparation and fierce advocacy to get the best results for you. Contact us to get started investigating the prosecutor\'s allegations against you',
         image: stateTrial
     }
 ];

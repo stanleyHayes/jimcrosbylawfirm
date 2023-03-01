@@ -38,7 +38,7 @@ const MobileHeader = () => {
                             <Typography
                                 sx={{color: 'secondary.main', fontWeight: 'bold'}}
                                 variant="h6">
-                                Pieter Jacobs
+                                Jim Crosby Law
                             </Typography>
                         </Link>
                     </Box>
