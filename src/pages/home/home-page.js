@@ -40,6 +40,34 @@ import {MailOutline, PersonOutline} from "@mui/icons-material";
 import {LoadingButton} from "@mui/lab";
 import Defense from "../../components/shared/defense";
 import Testimonial from "../../components/shared/testimonial";
+import {motion} from "framer-motion";
+
+
+const container = {
+    initial: {
+        y: '-10vh',
+        opacity: 0
+    },
+    whileInView: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1,
+            staggerChildren: 0.2,
+            type: "spring",
+            bounce: 1,
+            stiffness: 150
+        }
+    }
+};
+const item = {
+    initial: {
+        opacity: 0
+    },
+    whileInView: {
+        opacity: 1
+    }
+};
 
 const HomePage = () => {
 
@@ -72,6 +100,7 @@ const HomePage = () => {
             message: yup.string().required('Message required'),
         })
     });
+
 
     return (
         <Layout>
@@ -150,40 +179,86 @@ const HomePage = () => {
                     backgroundColor="#000000"/>
             </Box>
             <Box sx={{py: 5, backgroundColor: 'background.paper'}}>
-                <Container>
-                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                <Container maxWidth="xl">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        component={motion.h4}
+                        variant="h4"
+                        sx={{color: 'text.primary', mb: 2}}
+                        align="center">
                         Leadership
                     </Typography>
-                    <Carousel
-                        infinite={true}
-                        keyBoardControl={true}
-                        pauseOnHover={true}
-                        showDots={false}
-                        arrows={true}
-                        autoPlay={true}
-                        autoPlaySpeed={3000}
-                        centerMode={true}
-                        responsive={UTILS.responsive}>
-                        {PIETER_JACOBS_LAW_DATA.LEADERSHIP.map((leadership, index) => {
-                            return (
-                                <Box key={index} sx={{mx: 1}}>
-                                    <Leadership leadership={leadership}/>
-                                </Box>
-                            )
-                        })}
-                    </Carousel>
+                    <Box
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.div}>
+                        <Carousel
+                            infinite={true}
+                            keyBoardControl={true}
+                            pauseOnHover={true}
+                            showDots={false}
+                            arrows={true}
+                            autoPlay={true}
+                            autoPlaySpeed={3000}
+                            centerMode={true}
+                            responsive={UTILS.responsive}>
+                            {PIETER_JACOBS_LAW_DATA.LEADERSHIP.map((leadership, index) => {
+                                return (
+                                    <Box key={index} sx={{mx: 1}}>
+                                        <Leadership leadership={leadership}/>
+                                    </Box>
+                                )
+                            })}
+                        </Carousel>
+                    </Box>
                 </Container>
             </Box>
 
             <Box sx={{py: 5, backgroundColor: 'background.default'}}>
-                <Container>
-                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                <Container maxWidth="xl">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        component={motion.h4}
+                        variant="h4"
+                        sx={{color: 'text.primary', mb: 2}}
+                        align="center">
                         Practice Areas
                     </Typography>
-                    <Grid container={true} spacing={2}>
+                    <Grid
+                          container={true} spacing={2}>
                         {PIETER_JACOBS_LAW_DATA.PRACTICE_AREAS.map((service, index) => {
                             return (
-                                <Grid xs={12} md={4} item={true} key={index}>
+                                <Grid  xs={12} md={4} item={true} key={index}>
                                     <Service service={service}/>
                                 </Grid>
                             )
@@ -196,16 +271,59 @@ const HomePage = () => {
                 <Box sx={{alignItems: 'center', display: 'flex', flexDirection: {xs: 'column', lg: 'row'}}}>
                     <Box sx={{flex: 1, py: 4}}>
                         <Container maxWidth="sm">
-                            <Typography variant="h4" sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
+                            <Typography
+                                initial={{
+                                    opacity: 0,
+                                    y: '10vh'
+                                }}
+                                whileInView={{
+                                    opacity: 1,
+                                    y: 0,
+                                    transition: {
+                                        duration: 1
+                                    }
+                                }}
+                                viewport={{once: true}}
+                                component={motion.h4}
+                                variant="h4"
+                                sx={{color: 'text.primary', fontWeight: 'bold', mb: 2}}>
                                 ABOUT US
                             </Typography>
                             <Box sx={{py: 2}}>
                                 <Stack direction="column" spacing={2}>
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.h5}
+                                            variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Tenacious Representation
                                         </Typography>
-                                        <Typography variant="body2" sx={{color: 'text.secondary'}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.p}
+                                            variant="body2" sx={{color: 'text.secondary'}}>
                                             Jim Crosby Law Firm in Downtown Houston is a female-owned firm providing
                                             aggressive representation in all criminal defense matters. Our goal in every
                                             case is to exceed expectations while meeting the goals set by the client,
@@ -215,10 +333,38 @@ const HomePage = () => {
                                     </Box>
 
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.h5}
+                                            variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Our Guarantee
                                         </Typography>
-                                        <Typography variant="body2" sx={{color: 'text.secondary'}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.p}
+                                            variant="body2" sx={{color: 'text.secondary'}}>
                                             PWe promise our clients that we will never stop fighting. Jim Crosby Law
                                             Firm in
                                             Downtown Houston is committed to doing whatever it takes to get the best
@@ -229,10 +375,39 @@ const HomePage = () => {
                                     </Box>
 
                                     <Box>
-                                        <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
+                                        <Typography
+
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.h5}
+                                            variant="h5" sx={{color: 'text.primary', fontWeight: 500, mb: 2}}>
                                             Our Number One Priority
                                         </Typography>
-                                        <Typography variant="body2" sx={{color: 'text.secondary'}}>
+                                        <Typography
+                                            initial={{
+                                                opacity: 0,
+                                                y: '10vh'
+                                            }}
+                                            whileInView={{
+                                                opacity: 1,
+                                                y: 0,
+                                                transition: {
+                                                    duration: 1
+                                                }
+                                            }}
+                                            viewport={{once: true}}
+                                            component={motion.p}
+                                            variant="body2" sx={{color: 'text.secondary'}}>
                                             At the Jim Crosby Law Firm in Downtown Houston we always work hard to keep
                                             the
                                             focus on you and your family. Our criminal defense firm works closely with
@@ -261,14 +436,56 @@ const HomePage = () => {
             </Box>
 
             <Box sx={{py: 5, backgroundColor: 'background.default'}}>
-                <Container>
-                    <Typography variant="h4" sx={{color: 'text.primary', mb: 4}} align="center">
+                <Container maxWidth="lg">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.h4}
+                        variant="h4" sx={{color: 'text.primary', mb: 4}} align="center">
                         Get In Touch
                     </Typography>
-                    <Typography variant="h6" sx={{color: 'text.primary', mb: 4}} align="center">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.h6}
+                        variant="h6" sx={{color: 'text.primary', mb: 4}} align="center">
                         Email Us! All Emails Receive A Response Within 24 Hours or Less
                     </Typography>
-                    <Typography variant="body2" sx={{color: 'text.secondary', mb: 2}} align="center">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.p}
+                        variant="body2" sx={{color: 'text.secondary', mb: 2}} align="center">
                         Use the form below to contact us regarding your legal inquiry. Please be as detailed as
                         possible. To help us best service your inquiry, we recommend that you first describe the issue
                         you’re having before telling us what you want to achieve. You may also email or call us to make
@@ -276,7 +493,21 @@ const HomePage = () => {
                     </Typography>
                     <Grid container={true} justifyContent="center">
                         <Grid item={true} xs={12} md={6}>
-                            <Card variant="elevation" elevation={0}>
+                            <Card
+                                initial={{
+                                    opacity: 0,
+                                    y: '10vh'
+                                }}
+                                whileInView={{
+                                    opacity: 1,
+                                    y: 0,
+                                    transition: {
+                                        duration: 1
+                                    }
+                                }}
+                                viewport={{once: true}}
+                                component={motion.div}
+                                variant="elevation" elevation={0}>
                                 {messageLoading && <LinearProgress variant="query" color="secondary"/>}
                                 <CardContent>
                                     <Stack direction="column" spacing={2}>
@@ -448,11 +679,27 @@ const HomePage = () => {
             </Box>
 
             <Box sx={{py: 5, backgroundColor: 'background.paper'}}>
-                <Container>
-                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                <Container maxWidth="xl">
+                    <Typography
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.h4}
+                        variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
                         State & Federal Criminal Defense
                     </Typography>
-                    <Grid container={true} spacing={4}>
+                    <Grid
+                        container={true}
+                        spacing={4}>
                         {PIETER_JACOBS_LAW_DATA.DEFENSE.map((defense, index) => {
                             return (
                                 <Grid xs={12} item={true} key={index}>
@@ -465,27 +712,58 @@ const HomePage = () => {
             </Box>
 
             <Box sx={{py: 5, backgroundColor: 'background.default'}}>
-                <Container>
-                    <Typography variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
+                <Container maxWidth="xl">
+                    <Typography
+
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.h4}
+                        variant="h4" sx={{color: 'text.primary', mb: 2}} align="center">
                         Testimonials
                     </Typography>
-                    <Carousel
-                        infinite={true}
-                        keyBoardControl={true}
-                        pauseOnHover={true}
-                        showDots={false}
-                        arrows={true}
-                        autoPlay={true}
-                        autoPlaySpeed={3000}
-                        responsive={UTILS.testimonialResponsive}>
-                        {PIETER_JACOBS_LAW_DATA.REVIEWS.map((review, index) => {
-                            return (
-                                <Box key={index}>
-                                    <Testimonial testimonial={review}/>
-                                </Box>
-                            )
-                        })}
-                    </Carousel>
+                    <Box
+                        initial={{
+                            opacity: 0,
+                            y: '10vh'
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                duration: 1
+                            }
+                        }}
+                        viewport={{once: true}}
+                        component={motion.h4}>
+
+                        <Carousel
+                            infinite={true}
+                            keyBoardControl={true}
+                            pauseOnHover={true}
+                            showDots={false}
+                            arrows={true}
+                            autoPlay={true}
+                            autoPlaySpeed={3000}
+                            responsive={UTILS.testimonialResponsive}>
+                            {PIETER_JACOBS_LAW_DATA.REVIEWS.map((review, index) => {
+                                return (
+                                    <Box key={index}>
+                                        <Testimonial testimonial={review}/>
+                                    </Box>
+                                )
+                            })}
+                        </Carousel>
+                    </Box>
                 </Container>
             </Box>
         </Layout>
