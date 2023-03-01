@@ -2,7 +2,7 @@ import {createTheme} from "@mui/material";
 
 const lightTheme = createTheme({
     typography: {
-        fontFamily: 'EuclidCircularB, EuclidCircularA'
+        fontFamily: 'Outfit, EuclidCircularB, EuclidCircularA'
     },
     palette: {
         primary: {

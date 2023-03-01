@@ -95,7 +95,7 @@ const HomePage = () => {
                                             />
                                         </Stack>
                                         <Typography align="center" variant="h3" sx={{color: 'white', mb: 3}}>
-                                            Pieter Jacobs Law
+                                            Jim Crosby Law
                                         </Typography>
                                         <Typography align="center" variant="body1" sx={{color: 'white', mb: 3}}>
                                             We advocate for employee rights and help companies comply with workplace
@@ -206,7 +206,7 @@ const HomePage = () => {
                                             Tenacious Representation
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            Pieter Jacobs Law Firm in Downtown Houston is a female-owned firm providing
+                                            Jim Crosby Law Firm in Downtown Houston is a female-owned firm providing
                                             aggressive representation in all criminal defense matters. Our goal in every
                                             case is to exceed expectations while meeting the goals set by the client,
                                             for
@@ -219,7 +219,7 @@ const HomePage = () => {
                                             Our Guarantee
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            PWe promise our clients that we will never stop fighting. Pieter Jacobs Law
+                                            PWe promise our clients that we will never stop fighting. Jim Crosby Law
                                             Firm in
                                             Downtown Houston is committed to doing whatever it takes to get the best
                                             result
@@ -233,7 +233,7 @@ const HomePage = () => {
                                             Our Number One Priority
                                         </Typography>
                                         <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                            At the Pieter Jacobs Law Firm in Downtown Houston we always work hard to keep
+                                            At the Jim Crosby Law Firm in Downtown Houston we always work hard to keep
                                             the
                                             focus on you and your family. Our criminal defense firm works closely with
                                             clients to keep them well informed in every case. We give honest and direct

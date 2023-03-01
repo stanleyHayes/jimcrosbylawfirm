@@ -45,7 +45,7 @@ const AboutPage = () => {
                         presenter at legal and industry conferences on employment law and compliance.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Prior to founding Pieter Jacobs Law, Peter Jacobs was a partner at Baker McKenzie, a global law
+                        Prior to founding Jim Crosby Law Firm, Jim Crosby was a partner at Baker McKenzie, a global law
                         firm, and
                         Littler Mendelson, the world’s largest employment and labor practice. She graduated from
                         Columbia Law School and Duke University.
