@@ -23,13 +23,13 @@ const DesktopHeader = () => {
                             <img
                                 src={logo}
                                 style={{width: 50, height: 50, objectFit: 'contain', objectPosition: 'center'}}
-                                alt="Pieter Jacobs Logo"
+                                alt="Jim Crosby Law Firm"
                             />
                         </Link>
                         <Link to="/" style={{textDecoration: 'none'}}>
                             <Typography
                                 sx={{color: 'secondary.main'}}
-                                variant="h5">Pieter Jacobs</Typography>
+                                variant="h5">Jim Crosby Law Firm</Typography>
                         </Link>
                     </Stack>
 

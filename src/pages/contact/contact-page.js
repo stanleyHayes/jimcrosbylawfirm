@@ -269,7 +269,7 @@ const ContactPage = () => {
                             member of the firm does not establish an attorney-client relationship.
                         </Typography>
                         <Typography variant="h5" sx={{color: 'text.primary'}} align="center">
-                            Pieter Jacobs Law Firm, PLLC
+                            Jim Crosby Law Firm, PLLC
                         </Typography>
                         <Typography variant="h5" sx={{color: 'text.primary'}} align="center">
                             1st Floor Technology House, 48-54 Goldsworth Road,  Working, Surrey GU21 6LE

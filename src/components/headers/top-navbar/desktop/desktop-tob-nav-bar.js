@@ -35,8 +35,8 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="tel:+12029844170"
-                            value="+1 (202) 984-4170"
+                            link="tel:+447537167228"
+                            value="+447537167228"
                         />
 
                         <ContactLink
@@ -75,8 +75,8 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="mailto:info@pieterjacobslaw.com"
-                            value="info@pieterjacobslaw.com"
+                            link="mailto:info@jimcrosbylawfirm.com"
+                            value="info@jimcrosbylawfirm.com"
                         />
                     </Stack>
                     <Stack
@@ -99,7 +99,7 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="https://facebook.com/usermaatre.setepenre"
+                            link="#"
                         />
 
                         <ContactLink
@@ -118,7 +118,7 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="https://instagram.com/inigolopez"
+                            link="#"
                         />
 
                         <ContactLink
@@ -137,7 +137,7 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="https://twitter.com/sahayford"
+                            link="#"
                         />
                     </Stack>
                 </Box>

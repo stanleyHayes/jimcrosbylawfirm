@@ -26,7 +26,7 @@ const MobileTobNavBar = () => {
                                 }}
                             />
                         }
-                        link="tel:+233270048319"
+                        link="tel:+447537167228"
                     />
                     <ContactLink
                         icon={
@@ -44,7 +44,7 @@ const MobileTobNavBar = () => {
                                 }}
                             />
                         }
-                        link="mailto:dev.stanley.hayford@gmail.com"
+                        link="mailto:info@jimcrosbylawfirm.com"
                     />
 
                     <ContactLink
@@ -63,7 +63,7 @@ const MobileTobNavBar = () => {
                                 }}
                             />
                         }
-                        link="https://facebook.com/usermaatre.setepenre"
+                        link="#"
                     />
 
                     <ContactLink
@@ -82,7 +82,7 @@ const MobileTobNavBar = () => {
                                 }}
                             />
                         }
-                        link="https://instagram.com/inigolopez"
+                        link="#"
                     />
 
                     <ContactLink
@@ -101,7 +101,7 @@ const MobileTobNavBar = () => {
                                 }}
                             />
                         }
-                        link="https://twitter.com/sahayford"
+                        link="#"
                     />
                 </Stack>
             </Container>
