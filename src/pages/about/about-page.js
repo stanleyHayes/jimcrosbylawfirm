@@ -19,28 +19,28 @@ const AboutPage = () => {
             <Box sx={{py: 5, backgroundColor: 'background.paper'}}>
                 <Container>
                     <Typography variant="h4" sx={{color: 'text.primary', mb: 4}} align="center">
-                        Lawyer Pieter Jacobs
+                        Lawyer Jim Crosby
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Peter Jacobs is a seasoned employment litigator and trusted advisor to both individuals and
+                        Jim Crosby is a seasoned employment litigator and trusted advisor to both individuals and
                         companies.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Peter Jacobs has been practicing employment law exclusively for her entire legal career. She has
+                        Jim Crosby has been practicing employment law exclusively for her entire legal career. She has
                         handled hundreds of employment disputes involving sexual harassment, discrimination, equal pay,
                         trade secrets, whistleblowers, retaliation and restrictive covenants, among others. She is
                         deeply committed to every case that she selects and optimizes the litigation strategy for her
                         client’s goals, whether that is an early resolution or taking a case to trial.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Peter Jacobs translates complex legal issues into business-minded solutions. She advises
+                        Jim Crosby translates complex legal issues into business-minded solutions. She advises
                         individual
                         and corporate clients on all types of employment issues, including employment policies and
                         handbooks, internal investigations, terminations, disability accommodations, and employment
                         agreements.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Peter Jacobs conducts workplace training programs on harassment prevention, leadership and
+                        Jim Crosby conducts workplace training programs on harassment prevention, leadership and
                         management skills, diversity, inclusion and respect in the workplace. She is a frequent
                         presenter at legal and industry conferences on employment law and compliance.
                     </Typography>
