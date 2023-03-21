@@ -1,8 +1,6 @@
-// const SERVER_BASE_URL = 'http://localhost:7000/api/v1';
-const SERVER_BASE_URL = 'https://goldstar-api.herokuapp.com/api/v1';
-const GOLD_STAR_THEME_VARIANT = 'GOLD_STAR_THEME_VARIANT';
-const GOLD_STAR_AUTH_TOKEN = 'GOLD_STAR_AUTH_TOKEN';
-const GOLD_STAR_AUTH_DATA = 'GOLD_STAR_AUTH_DATA';
-const GOLD_STAR_VIEW_MODE = 'GOLD_STAR_VIEW_MODE';
+const TEMPLATE_ID = "template_4omizun"
+// const SERVICE_ID = "service_wtqs39p";
+const SERVICE_ID = "service_i3j578q";
+const PUBLIC_KEY = "Zt8yv-Xjj0m9uiikn";
 
-export const CONSTANTS = {SERVER_BASE_URL, GOLD_STAR_THEME_VARIANT, GOLD_STAR_AUTH_TOKEN, GOLD_STAR_AUTH_DATA, GOLD_STAR_VIEW_MODE};
+export const CONSTANTS = {TEMPLATE_ID, SERVICE_ID, PUBLIC_KEY};

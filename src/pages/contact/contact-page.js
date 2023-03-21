@@ -41,9 +41,7 @@ const ContactPage = () => {
     const formik = useFormik({
         initialValues: {
             name: '',
-            subject: '',
             email: '',
-            phone: '',
             message: '',
         },
         onSubmit: (values, {resetForm, setSubmitting}) => {
@@ -54,8 +52,6 @@ const ContactPage = () => {
         validationSchema: yup.object({
             email: yup.string().email('Invalid email').required('email required'),
             name: yup.string().required('name required'),
-            phone: yup.string().phone('Invalid phone').required('phone required'),
-            subject: yup.string().required('subject required'),
             message: yup.string().required('Message required'),
         })
     });

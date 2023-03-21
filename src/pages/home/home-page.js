@@ -42,33 +42,6 @@ import Defense from "../../components/shared/defense";
 import Testimonial from "../../components/shared/testimonial";
 import {motion} from "framer-motion";
 
-
-const container = {
-    initial: {
-        y: '-10vh',
-        opacity: 0
-    },
-    whileInView: {
-        opacity: 1,
-        y: 0,
-        transition: {
-            duration: 1,
-            staggerChildren: 0.2,
-            type: "spring",
-            bounce: 1,
-            stiffness: 150
-        }
-    }
-};
-const item = {
-    initial: {
-        opacity: 0
-    },
-    whileInView: {
-        opacity: 1
-    }
-};
-
 const HomePage = () => {
 
     const {messageLoading, messageError, messageMessage} = useSelector(selectMessage);
