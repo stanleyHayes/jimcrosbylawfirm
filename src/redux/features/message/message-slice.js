@@ -15,8 +15,8 @@ const sendMessage = createAsyncThunk(
             const response = await MESSAGE_API.sendMessage({...values});
             resetForm();
             setSubmitting(false);
-           showMessage(response.data.message, {variant: 'success'});
-            return response.data;
+           showMessage("Message sent successfully", {variant: 'success'});
+            return response;
         } catch (e) {
             const {message} = e.response.data;
             showMessage(message, {variant: 'error'});
