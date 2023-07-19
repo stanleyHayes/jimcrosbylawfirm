@@ -35,8 +35,8 @@ const DesktopTobNavBar = () => {
                                     }}
                                 />
                             }
-                            link="tel:+447537167228"
-                            value="+447537167228"
+                            link="tel:+447424969958"
+                            value="+447424969958"
                         />
 
                         <ContactLink

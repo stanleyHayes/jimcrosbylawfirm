@@ -26,14 +26,14 @@ const AboutPage = () => {
                         companies.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Jim Crosby has been practicing employment law exclusively for her entire legal career. She has
+                        Jim Crosby has been practicing employment law exclusively for her entire legal career. He has
                         handled hundreds of employment disputes involving sexual harassment, discrimination, equal pay,
-                        trade secrets, whistleblowers, retaliation and restrictive covenants, among others. She is
-                        deeply committed to every case that she selects and optimizes the litigation strategy for her
+                        trade secrets, whistleblowers, retaliation and restrictive covenants, among others. He is
+                        deeply committed to every case that he selects and optimizes the litigation strategy for her
                         client’s goals, whether that is an early resolution or taking a case to trial.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Jim Crosby translates complex legal issues into business-minded solutions. She advises
+                        Jim Crosby translates complex legal issues into business-minded solutions. He advises
                         individual
                         and corporate clients on all types of employment issues, including employment policies and
                         handbooks, internal investigations, terminations, disability accommodations, and employment
@@ -41,13 +41,13 @@ const AboutPage = () => {
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
                         Jim Crosby conducts workplace training programs on harassment prevention, leadership and
-                        management skills, diversity, inclusion and respect in the workplace. She is a frequent
+                        management skills, diversity, inclusion and respect in the workplace. He is a frequent
                         presenter at legal and industry conferences on employment law and compliance.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
                         Prior to founding Jim Crosby Law Firm, Jim Crosby was a partner at Baker McKenzie, a global law
                         firm, and
-                        Littler Mendelson, the world’s largest employment and labor practice. She graduated from
+                        Littler Mendelson, the world’s largest employment and labor practice. He graduated from
                         Columbia Law School and Duke University.
                     </Typography>
                 </Container>
