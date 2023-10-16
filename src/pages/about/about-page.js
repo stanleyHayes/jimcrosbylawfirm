@@ -26,7 +26,7 @@ const AboutPage = () => {
                         companies.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
-                        Jim Crosby has been practicing employment law exclusively for her entire legal career. He has
+                        Jim Crosby has been practicing employment law exclusively for his entire legal career. He has
                         handled hundreds of employment disputes involving sexual harassment, discrimination, equal pay,
                         trade secrets, whistleblowers, retaliation and restrictive covenants, among others. He is
                         deeply committed to every case that he selects and optimizes the litigation strategy for her

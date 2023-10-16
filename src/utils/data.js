@@ -87,21 +87,21 @@ const TEAM = [
 const REVIEWS = [
     {
         title: 'State Trial',
-        description: 'Attorney Mr Crosby is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
+        description: 'Attorney Mr Crosby is a very professional and awesome man. He resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
         date: 'May, 2021',
         rating: 4.6,
         image: agreement
     },
     {
         title: 'State Sentencing',
-        description: 'Jim Crosby recently represented me in a criminal matter in Harris County, Texas criminal court. The case was extremely complex. Jim Crosby literally saved my life. I am a former attorney, and I can easily attest that Jim Crosby is one of the smartest lawyers that I have ever met. She has extensive knowledge of criminal law and procedure. Jim Crosby spent countless hours working on my case. She developed a a case strategy and worked it to perfection. Jim Crosby was always very well prepared, and she outworked the opposing counsel. Jim Crosby was always very honest with me. Jim Crosby and his staff made me feel like family. I highly recommend Jim Crosby',
+        description: 'Jim Crosby recently represented me in a criminal matter in Harris County, Texas criminal court. The case was extremely complex. Jim Crosby literally saved my life. I am a former attorney, and I can easily attest that Jim Crosby is one of the smartest lawyers that I have ever met. He has extensive knowledge of criminal law and procedure. Jim Crosby spent countless hours working on my case. He developed a a case strategy and worked it to perfection. Jim Crosby was always very well prepared, and she outworked the opposing counsel. Jim Crosby was always very honest with me. Jim Crosby and his staff made me feel like family. I highly recommend Jim Crosby',
         date: 'April, 2021',
         rating: 5,
         image: agreement
     },
     {
         title: 'State Trial',
-        description: 'Attorney Mr Crosby is a very professional and awesome lady. She resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
+        description: 'Attorney Mr Crosby is a very professional and awesome man. He resolved all my issues in a professional manner. I would definitely use Mr Crosby in the future if I need to again. Thank you Mr Crosby',
         date: 'May, 2021',
         rating: 4.8,
         image: agreement
@@ -122,7 +122,7 @@ const REVIEWS = [
     },
     {
         title: 'Federal Trial & Sentencing',
-        description: 'I had a federal case. With the help of Carmen, my sentence was drastically reduced and she exceeded my expectations . Carmen not only was extremely nice but she was more than just a lawyer, she developed a bond with me that I didn’t know was possible, and she earned my complete trust in the process. She always checked up on me and made sure I was doing okay. She always said I was welcome to come and consult with her any time I wanted . Not only did she get to know me but she got to know my family and my history. She continued to do follow ups and kept me optimistic. I felt so comfortable around her and I’m proud to have had her as my lawyer. I recommend her to any and everybody. ',
+        description: 'I had a federal case. With the help of Carmen, my sentence was drastically reduced and she exceeded my expectations . Carmen not only was extremely nice but she was more than just a lawyer, she developed a bond with me that I didn’t know was possible, and she earned my complete trust in the process. He always checked up on me and made sure I was doing okay. He always said I was welcome to come and consult with her any time I wanted . Not only did she get to know me but she got to know my family and my history. He continued to do follow ups and kept me optimistic. I felt so comfortable around her and I’m proud to have had her as my lawyer. I recommend her to any and everybody. ',
         date: 'January, 2019',
         rating: 4.4,
         image: agreement
@@ -136,7 +136,7 @@ const REVIEWS = [
     },
     {
         title: 'Post Conviction Relief',
-        description: 'I am forever grateful to Jim Crosby for her unwavering hard work on my case. I was charged with a felony in 2010, and made the mistake of hiring a terrible lawyer whose gross negligence on my case led to me pleading guilty. I met with Jim Crosby in 2016 and spoke to her about my case. She listened diligently and agreed that I was denied effective assistance of counsel, and that my plea of guilty was not knowingly and voluntarily entered because my lawyer did not properly advise me. Soon after our meeting, Jim Crosby drafted and filed a writ of habeas corpus. She worked tirelessly, going back and forth speaking with prosecutors, never taking no for an answer. I am so delighted to say that we got awarded the writ! Jim Crosby then quickly started filing the petition for expansion. As of today, my nightmare has ended, and the guilty conviction is forever off of my records. I cannot thank Jim Crosby enough. She will listen to you and fight for you. Her and her team will keep you in the loop every step of the way. Any questions or concerns you might have get quickly answered. You are never left in the dark.  Jim Crosby is devoted and loves what she does. If you hire Jim Crosby, then you can rest easy knowing you are getting the absolute best representation.',
+        description: 'I am forever grateful to Jim Crosby for her unwavering hard work on my case. I was charged with a felony in 2010, and made the mistake of hiring a terrible lawyer whose gross negligence on my case led to me pleading guilty. I met with Jim Crosby in 2016 and spoke to her about my case. He listened diligently and agreed that I was denied effective assistance of counsel, and that my plea of guilty was not knowingly and voluntarily entered because my lawyer did not properly advise me. Soon after our meeting, Jim Crosby drafted and filed a writ of habeas corpus. He worked tirelessly, going back and forth speaking with prosecutors, never taking no for an answer. I am so delighted to say that we got awarded the writ! Jim Crosby then quickly started filing the petition for expansion. As of today, my nightmare has ended, and the guilty conviction is forever off of my records. I cannot thank Jim Crosby enough. He will listen to you and fight for you. Her and her team will keep you in the loop every step of the way. Any questions or concerns you might have get quickly answered. You are never left in the dark.  Jim Crosby is devoted and loves what she does. If you hire Jim Crosby, then you can rest easy knowing you are getting the absolute best representation.',
         date: 'February, 2019',
         rating: 5,
         image: agreement
