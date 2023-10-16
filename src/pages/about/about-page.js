@@ -29,7 +29,7 @@ const AboutPage = () => {
                         Jim Crosby has been practicing employment law exclusively for his entire legal career. He has
                         handled hundreds of employment disputes involving sexual harassment, discrimination, equal pay,
                         trade secrets, whistleblowers, retaliation and restrictive covenants, among others. He is
-                        deeply committed to every case that he selects and optimizes the litigation strategy for her
+                        deeply committed to every case that he selects and optimizes the litigation strategy for his
                         client’s goals, whether that is an early resolution or taking a case to trial.
                     </Typography>
                     <Typography variant="body1" sx={{color: 'text.primary', mb: 2}} align="center">
